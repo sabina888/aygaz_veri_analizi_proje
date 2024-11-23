@@ -11,19 +11,4 @@ Veri setleri, COVID-19'un küresel yayılımını analiz etmek amacıyla kullan�
 
 Veriler, **Kaggle COVID-19 Dataset** 
 
-## Proje Adımları
 
-### 1. Veri Yükleme ve Temizleme
-İlk adımda, veriler **Pandas** ile yüklenmiş ve eksik değerler kontrol edilerek uygun şekilde doldurulmuştur. Eksik veriler için ileriye doğru doldurma (**forward fill**) yöntemi kullanılmıştır.
-
-```python
-import pandas as pd
-
-# Veri setini yükleme
-df = pd.read_csv('/path/to/country_wise_latest.csv')
-
-# Eksik değerlerin kontrolü
-print(df.isnull().sum())
-
-# Eksik verileri ileriye doğru doldurma (forward fill)
-df_filled = df.fillna(method="ffill")
