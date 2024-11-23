@@ -9,7 +9,7 @@ Veri setleri, COVID-19'un küresel yayılımını analiz etmek amacıyla kullan�
 2. **`day_wise.csv`**: COVID-19 vaka sayılarının günlük artışlarını içerir.
 3. **`worldometer_data.csv`**: Dünya genelindeki COVID-19 verilerini içerir.
 
-Veriler, **Kaggle COVID-19 Dataset** ve **Worldometer**'den alınmıştır.
+Veriler, **Kaggle COVID-19 Dataset** 
 
 ## Proje Adımları
 
